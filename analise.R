@@ -15,7 +15,7 @@ dados_sinteticos <- tibble(
     t = seq(0, 25, length.out = 1000)
 ) %>% 
     mutate(
-        c = 490 / (x + 2.5)
+        c = 490 / (t + 2.5)
     )
 
 
